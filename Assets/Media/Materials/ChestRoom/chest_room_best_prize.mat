@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: chest_room_best_prize
+  m_Shader: {fileID: 4800000, guid: 168fa26ed08254a0fa01b010b596c9b8, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - CUBEMAP_ENABLED
+  - CUBE_FOG_ENABLED
+  - FOG_ENABLED
+  - RIM_ENABLED
+  - SPECULAR_ENABLED
+  - VERTEX_COLORS_ENABLED
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: dcc35d20c1c7141cebb368c356c02581, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionMap:
+        m_Texture: {fileID: 8900000, guid: 25f8197ce96046f478b2322e6b45c090, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BlendDstMode: 0
+    - _BlendSrcMode: 1
+    - _BrightnessG: 0.12
+    - _BrightnessR: 0.25
+    - _BumpScale: 1
+    - _Clamp: 0.465
+    - _ColorMask: 15
+    - _CubeIntensity: 0.15
+    - _Cull: 2
+    - _CustomSunEnabled: 0
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EmissionIntensity: 1
+    - _EnableAmbient: 0
+    - _EnableCubeFog: 1
+    - _EnableCubemap: 1
+    - _EnableEmission: 0
+    - _EnableFog: 1
+    - _EnableHD: 0
+    - _EnableReflex: 0
+    - _EnableRim: 1
+    - _EnableSaturation: 0
+    - _EnableSpecular: 1
+    - _EnableTexture: 0
+    - _FogMaxDistance: 100
+    - _FogMinDistance: 50
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Lighting: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Outline: 0.015
+    - _Parallax: 0.02
+    - _ReceiveShadows: 0
+    - _Reflection: 1
+    - _ReflexAmount: 0.5
+    - _ReflexIntensity: 0.269
+    - _ReflexSmoothness: 0.5
+    - _ReflexThreshold: 2
+    - _RimIntensity: 0.35
+    - _RimPower: 2
+    - _Saturation: 0
+    - _ShadowDistance: 25
+    - _ShadowIntensity: 0.15
+    - _Shininess: 75
+    - _SmoothnessTextureChannel: 0
+    - _SpecIntensity: 0.55
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 2
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _TextureIntensity: 1
+    - _UVSec: 0
+    - _UseUIAlphaClip: 0
+    - _VertexColorsEnabled: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
+    - _ColorB: {r: 0.7568628, g: 0.41176474, b: 0.64705884, a: 1}
+    - _ColorG: {r: 0.60784316, g: 0.16078432, b: 0.86666673, a: 1}
+    - _ColorR: {r: 0.19215688, g: 0.5372549, b: 0.9058824, a: 1}
+    - _CubeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FogColor: {r: 0.79, g: 0.91, b: 0.98, a: 1}
+    - _OutlineColor: {r: 0.034754362, g: 0.4213108, b: 0.6698113, a: 1}
+    - _ReflectionColor: {r: 1, g: 0.16651773, b: 0, a: 1}
+    - _ReflectionMask: {r: 1, g: 0, b: 0, a: 1}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.91815627, g: 0.7971698, b: 1, a: 1}
+    - _SunPosition: {r: 41.1, g: 15.16, b: -0.25, a: 0}
+    - _ToonColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
