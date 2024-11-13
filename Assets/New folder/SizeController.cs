@@ -38,6 +38,9 @@ public class SizeController : MonoBehaviour
         if (!tweenDie)
         {
             playernimatior.Play("die");
+            Debug.Log("Player Dying");
+
+                
             return;
         }
 

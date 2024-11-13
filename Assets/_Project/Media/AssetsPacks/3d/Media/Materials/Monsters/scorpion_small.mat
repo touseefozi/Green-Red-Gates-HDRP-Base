@@ -9,8 +9,9 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: scorpion_small
   m_Shader: {fileID: 4800000, guid: f324170806774b0e96fd5ac49d93c655, type: 3}
-  m_ValidKeywords:
-  - EMISSION_ENABLED
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
   m_InvalidKeywords:
   - CUBEMAP_ENABLED
   - SPECULAR_ENABLED
@@ -22,6 +23,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
